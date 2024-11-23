@@ -19,8 +19,7 @@ builder.Services.AddDbContext<DbContext>(options =>
 // Adiciona os controllers
 builder.Services.AddControllers();
 
-//Adiciona autenticação
-//builder.Services.AddScoped<AuthService>();
+
 
 // Adiciona o Swagger
 builder.Services.AddEndpointsApiExplorer();
